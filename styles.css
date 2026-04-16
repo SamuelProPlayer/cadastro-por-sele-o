@@ -136,6 +136,7 @@ body * {
     outline: none;
     box-sizing: border-box;
      }
+     
      .pais > select { 
     width: 100%;
     border: none;
