@@ -38,8 +38,8 @@
                 <h1>Cadastro</h1>
 
                 <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuario">
+                    <label for="usuario">Nome Completo</label>
+                    <input type="text" name="nome" placeholder="Usuario">
                 </div>
 
                 <div class="textfield">
@@ -48,13 +48,29 @@
                 </div>
 
                 <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <label for="senha">Nome da Empresa</label>
+                    <input type="text" name="nome_da_empresa" placeholder="Nome da empresa">
                 </div>
-
+                <div class="textfield">
+                    <label for="senha">Tamanho da Empresa</label>
+                    <select id="tamanho_empresa" name="tamanho_empresa" placeholder="Tamanho da empresa">
+                         <option value="Pequena">Pequena</option>
+                         <option value="Media">Média</option>
+                         <option value="Grande">Grande</option>
+                         <option value="Multinacional">Multinacional</option>
+                </div>
+                 <div class="textfield">
+                    <label for="senha">País ou região</label>
+                    <select id="localização" name="loc" placeholder="localização">
+                         <option value="Pequena">Brasil</option>
+                         <option value="Media">América Latina</option>
+                         <option value="Grande">Sudeste</option>
+                         <option value="Multinacional">Balcãs</option>
+                         </select>
+                        </div>
                 <div class="label1"> 
                 <input type="checkbox">
-                <label class="label1">Li e concordo com os termos da politica de provacidade </label> </div> 
+                <label class="label1">Enviando esse formulário você aceita os termos de privacidade. </label> </div> 
 
                 <button class="btn-cadastro">Cadastrar</button>
             </div> 
