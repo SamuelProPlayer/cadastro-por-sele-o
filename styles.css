@@ -85,7 +85,7 @@ body * {
 
 .login{
     width: 50vw;
-    height: 300vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;}
