@@ -181,6 +181,7 @@ body * {
     -webkit-transform: scale(1.05);
     transform: scale(1.05); 
     transition-duration:600ms;
+    justify-content: center;
 }
 gjdgjsrj
 .label1{
