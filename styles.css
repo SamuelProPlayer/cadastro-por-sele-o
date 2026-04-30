@@ -92,6 +92,7 @@ body * {
 
 .card-login{
     width: 200%;
+    height: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
