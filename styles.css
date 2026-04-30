@@ -139,7 +139,7 @@ body * {
     box-sizing: border-box;
 }
 
-body .loc > select {
+.loc > select {
     width: 100%;
     border: none;
     border-radius: 10px;
